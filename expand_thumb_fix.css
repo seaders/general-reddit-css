@@ -1,0 +1,98 @@
+html body .content .expando-button.selftext.collapsed, 
+html body .content .expando-button.selftext.collapsed:hover,
+html body .content .eb-sch,
+html body .content .expando-button.selftext.expanded,
+html body .content .eb-se,
+html body .content .expando-button.selftext.expanded:hover,
+html body .content .eb-seh,
+html body .content .expando-button.video.collapsed,
+html body .content .expando-button.video.collapsed:hover,
+html body .content .eb-vch,
+html body .content .expando-button.video.expanded,
+html body .content .eb-ve,
+html body .content .expando-button.video.expanded:hover,
+html body .content .eb-veh,
+html body .content .thumbnail.nsfw,
+html body .content .thumbnail.self,
+html body .content .thumbnail.default
+{
+    background-image: url(%%reddit-sprite%%) !important;
+}
+
+html body .content .expando-button {
+    float: left;
+    height: 23px;
+    width: 23px;
+    margin: 2px 5px 2px 0;
+    background: #fff none no-repeat scroll center center;
+}
+
+html body .content .expando-button.selftext.collapsed {
+    background-position: 0 -584px;
+    background-repeat: no-repeat;
+}
+
+html body .content .expando-button.selftext.collapsed:hover,.eb-sch {
+    background-position: -92px -547px;
+    background-repeat: no-repeat;
+}
+
+html body .content .expando-button.selftext.expanded,.eb-se {
+    margin-bottom: 5px;
+    background-position: -58px -584px;
+    background-repeat: no-repeat;
+}
+
+html body .content .expando-button.selftext.expanded:hover,.eb-seh {
+    background-position: -29px -584px;
+    background-repeat: no-repeat;
+}
+
+html body .content .expando-button.video.collapsed {
+    background-position: 0 -613px;
+    background-repeat: no-repeat;
+}
+
+html body .content .expando-button.video.collapsed:hover,.eb-vch {
+    background-position: -87px -584px;
+    background-repeat: no-repeat;
+}
+
+html body .content .expando-button.video.expanded,.eb-ve {
+    background-position: -58px -613px;
+    background-repeat: no-repeat;
+}
+
+html body .content .expando-button.video.expanded:hover,.eb-veh {
+    background-position: -29px -613px;
+    background-repeat: no-repeat;
+}
+
+
+html body .content .thumbnail {
+    float: left;
+    font-size: 0;
+    margin: 0;
+    margin-right: 5px;
+    margin-bottom: 2px;
+    overflow: hidden;
+    width: 70px;
+}
+
+html body .content .thumbnail.nsfw {
+    height: 70px;
+    background-position: 0 -359px;
+    background-repeat: no-repeat;
+}
+
+html body .content .thumbnail.self {
+    height: 50px;
+    background-position: 0 -491px;
+    background-repeat: no-repeat;
+}
+
+html body .content .thumbnail.default {
+    height: 50px;
+    background-position: 0 -435px;
+    background-repeat: no-repeat;
+}
