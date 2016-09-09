@@ -1,17 +1,21 @@
 html body .content .expando-button.selftext.collapsed, 
 html body .content .expando-button.selftext.collapsed:hover,
-html body .content .eb-sch,
+html body .content html body .content .eb-sch,
 html body .content .expando-button.selftext.expanded,
-html body .content .eb-se,
+html body .content html body .content .eb-se,
 html body .content .expando-button.selftext.expanded:hover,
-html body .content .eb-seh,
+html body .content html body .content .eb-seh,
 html body .content .expando-button.video.collapsed,
 html body .content .expando-button.video.collapsed:hover,
-html body .content .eb-vch,
+html body .content .expando-button.image.collapsed,
+html body .content .expando-button.image.collapsed:hover,
+html body .content html body .content .eb-vch,
 html body .content .expando-button.video.expanded,
-html body .content .eb-ve,
+html body .content .expando-button.image.expanded,
+html body .content html body .content .eb-ve,
 html body .content .expando-button.video.expanded:hover,
-html body .content .eb-veh,
+html body .content .expando-button.image.expanded,
+html body .content html body .content .eb-veh,
 html body .content .thumbnail.nsfw,
 html body .content .thumbnail.self,
 html body .content .thumbnail.default
@@ -32,38 +36,48 @@ html body .content .expando-button.selftext.collapsed {
     background-repeat: no-repeat;
 }
 
-html body .content .expando-button.selftext.collapsed:hover,.eb-sch {
+html body .content .expando-button.selftext.collapsed:hover,
+html body .content .eb-sch {
     background-position: -92px -547px;
     background-repeat: no-repeat;
 }
 
-html body .content .expando-button.selftext.expanded,.eb-se {
+html body .content .expando-button.selftext.expanded,
+html body .content .eb-se {
     margin-bottom: 5px;
     background-position: -58px -584px;
     background-repeat: no-repeat;
 }
 
-html body .content .expando-button.selftext.expanded:hover,.eb-seh {
+html body .content .expando-button.selftext.expanded:hover,
+html body .content .eb-seh {
     background-position: -29px -584px;
     background-repeat: no-repeat;
 }
 
-html body .content .expando-button.video.collapsed {
+html body .content .expando-button.video.collapsed,
+html body .content .expando-button.image.collapsed {
     background-position: 0 -613px;
     background-repeat: no-repeat;
 }
 
-html body .content .expando-button.video.collapsed:hover,.eb-vch {
+html body .content .expando-button.video.collapsed:hover,
+html body .content .expando-button.image.collapsed:hover,
+html body .content .eb-vch {
     background-position: -87px -584px;
     background-repeat: no-repeat;
 }
 
-html body .content .expando-button.video.expanded,.eb-ve {
+html body .content .expando-button.video.expanded,
+html body .content .expando-button.image.expanded,
+html body .content .eb-ve {
     background-position: -58px -613px;
     background-repeat: no-repeat;
 }
 
-html body .content .expando-button.video.expanded:hover,.eb-veh {
+html body .content .expando-button.video.expanded:hover,
+html body .content .expando-button.image.expanded:hover,
+html body .content .eb-veh {
     background-position: -29px -613px;
     background-repeat: no-repeat;
 }
@@ -91,7 +105,8 @@ html body .content .thumbnail.self {
     background-repeat: no-repeat;
 }
 
-html body .content .thumbnail.default {
+html body .content .thumbnail.default,
+html body .content .thumbnail.image {
     height: 50px;
     background-position: 0 -435px;
     background-repeat: no-repeat;
