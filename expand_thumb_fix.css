@@ -1,26 +1,23 @@
 html body .content .expando-button.selftext.collapsed, 
 html body .content .expando-button.selftext.collapsed:hover,
-html body .content html body .content .eb-sch,
+html body .content .eb-sch,
 html body .content .expando-button.selftext.expanded,
-html body .content html body .content .eb-se,
+html body .content .eb-se,
 html body .content .expando-button.selftext.expanded:hover,
-html body .content html body .content .eb-seh,
+html body .content .eb-seh,
 html body .content .expando-button.video.collapsed,
 html body .content .expando-button.video.collapsed:hover,
-html body .content .expando-button.image.collapsed,
-html body .content .expando-button.image.collapsed:hover,
-html body .content html body .content .eb-vch,
+html body .content .eb-vch,
 html body .content .expando-button.video.expanded,
-html body .content .expando-button.image.expanded,
-html body .content html body .content .eb-ve,
+html body .content .eb-ve,
 html body .content .expando-button.video.expanded:hover,
-html body .content .expando-button.image.expanded,
-html body .content html body .content .eb-veh,
+html body .content .eb-veh,
 html body .content .thumbnail.nsfw,
 html body .content .thumbnail.self,
+html body .content .thumbnail.image,
 html body .content .thumbnail.default
 {
-    background-image: url(%%reddit-sprite%%) !important;
+    background-image: url(%%reddit-sprite%%);
 }
 
 html body .content .expando-button {
@@ -28,7 +25,10 @@ html body .content .expando-button {
     height: 23px;
     width: 23px;
     margin: 2px 5px 2px 0;
-    background: #fff none no-repeat scroll center center;
+    background-color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
 }
 
 html body .content .expando-button.selftext.collapsed {
@@ -55,28 +55,24 @@ html body .content .eb-seh {
     background-repeat: no-repeat;
 }
 
-html body .content .expando-button.video.collapsed,
-html body .content .expando-button.image.collapsed {
+html body .content .expando-button.video.collapsed {
     background-position: 0 -613px;
     background-repeat: no-repeat;
 }
 
 html body .content .expando-button.video.collapsed:hover,
-html body .content .expando-button.image.collapsed:hover,
 html body .content .eb-vch {
     background-position: -87px -584px;
     background-repeat: no-repeat;
 }
 
 html body .content .expando-button.video.expanded,
-html body .content .expando-button.image.expanded,
 html body .content .eb-ve {
     background-position: -58px -613px;
     background-repeat: no-repeat;
 }
 
 html body .content .expando-button.video.expanded:hover,
-html body .content .expando-button.image.expanded:hover,
 html body .content .eb-veh {
     background-position: -29px -613px;
     background-repeat: no-repeat;
@@ -105,9 +101,23 @@ html body .content .thumbnail.self {
     background-repeat: no-repeat;
 }
 
-html body .content .thumbnail.default,
-html body .content .thumbnail.image {
+html body .content .thumbnail.default {
     height: 50px;
     background-position: 0 -435px;
     background-repeat: no-repeat;
+}
+
+
+
+.expando-button.image, .expando-button.video-muted, .expando-button.expando-button-loading, .expando-button.expando-button-requires-permission {
+    float: left;
+    width: 23px;
+    height: 23px;
+    max-width: 23px;
+    max-height: 23px;
+    display: inline-block;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAFnCAYAAABNf9LVAAAABmJLR…5qv4EmtaCwSoymX3yL830i99eq3icivzsncZ0J5vtE/wEeaARBuqC58gAAAABJRU5ErkJggg==);
+    margin-right: 6px;
+    vertical-align: top;
+    padding: 0px;
 }
