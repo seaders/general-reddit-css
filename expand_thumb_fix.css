@@ -109,15 +109,3 @@ html body .content .thumbnail.default {
 
 
 
-.expando-button.image, .expando-button.video-muted, .expando-button.expando-button-loading, .expando-button.expando-button-requires-permission {
-    float: left;
-    width: 23px;
-    height: 23px;
-    max-width: 23px;
-    max-height: 23px;
-    display: inline-block;
-    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAFnCAYAAABNf9LVAAAABmJLR…5qv4EmtaCwSoymX3yL830i99eq3icivzsncZ0J5vtE/wEeaARBuqC58gAAAABJRU5ErkJggg==);
-    margin-right: 6px;
-    vertical-align: top;
-    padding: 0px;
-}
